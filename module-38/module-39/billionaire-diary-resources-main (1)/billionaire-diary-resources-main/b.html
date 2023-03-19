@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billionaire</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <section  class="d-flex  flex-column-reverse flex-lg-row">
+        <section  style = "background-color: indigo;" class="sm-w-full col-lg-3">
+            <section class="d-grid gap-2 col-12 p-5">
+                <button style = "color:black;"type="button" class="btn btn-outline-primary bg-white">Add a user</button>
+                <button style = "color:black;"type="button" class="btn btn-outline-secondary bg-white mt-5">Double Money</button>
+                <button style = "color:black;"type="button" class="btn btn-outline-success bg-white mt-5">Sort by bank</button>
+                <button style = "color:black;"type="button" class="btn btn-outline-danger bg-white mt-5">calculate entire wealth</button>
+                <button style = "color:black;"type="button" class="btn btn-outline-warning bg-white mt-5">Show all billionairs</button>
+                <button style = "color:black;"type="button" class="btn btn-outline-info bg-white mt-5">Richest by industry</button>
+                <button style = "color:black;"type="button" class="btn btn-outline-light bg-white mt-5">Richest by states</button>
+               </section>
+           </section>
+        <section style="height:120px" class="d-flex mx-auto col-lg-8">
+            <div>
+                <input id="search-field" type="text" class="px-2 border-top-0 border-end-0 border-start-0" placeholder="search">
+            </div>
+        </section>
+       
+    </section>
+    <div id="length">
+
+    </div>
+
+           <section>
+            <div class="modal fade" id="phoneDetailModal" tabindex="-1" aria-labelledby="phoneDetailModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="phoneDetailModalLabel"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div id="phone-details" class="modal-body">
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </section>
+    <script src="b.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

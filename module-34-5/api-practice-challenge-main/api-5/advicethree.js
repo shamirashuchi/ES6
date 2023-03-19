@@ -5,6 +5,7 @@ const handleSearch = () => {
     .then(res => res.json())
     .then(data => {
         data.slips ? displaydata2(data.slips) : alert("no data ");
+        console.log(data);
     });
 }
 else {

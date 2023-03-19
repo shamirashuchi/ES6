@@ -15,7 +15,7 @@ const loadQuote2 = async() => {
       displayQuote(data);
     }
     catch(error){
-        console.log(error);
+        alert("Hello! I am an alert box!!");
     }
 } 
 const displayQuote = quote =>{
@@ -23,4 +23,4 @@ const displayQuote = quote =>{
     console.log(quote);
     blockQuote.innerHTML = quote.quote;
 }
-loadQuote();
+loadQuote2();
